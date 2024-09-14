@@ -6,6 +6,7 @@ This project sets up an ETL pipeline using PySpark and Apache Airflow to extract
 
 ## Project Structure
 
+```
 pyspark-airflow-postgres-etl/
 ├── airflow/
 │   └── dags/
@@ -19,7 +20,7 @@ pyspark-airflow-postgres-etl/
 ├── requirements.txt                     # Python dependencies for the project
 ├── README.md                            # Project overview and setup instructions
 └── .gitignore                           # Git ignore file to exclude unnecessary files
-
+```
 
 ## Prerequisites
 
