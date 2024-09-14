@@ -25,11 +25,11 @@ dag = DAG(
 # Define the SparkSubmitOperator
 spark_submit_task = SparkSubmitOperator(
     task_id='spark_submit_job',
-    application='/home/cipher/pyspark_files/pyspark_airflow_railway.py',
+    application='./pyspark_files/pyspark_airflow_railway.py',
     conn_id='spark_default',
     executor_cores=2,
     executor_memory='2g',
-    jars='/home/cipher/pyspark_files/postgresql-42.7.3.jar',
+    jars='./pyspark_files/postgresql-42.7.3.jar',
     total_executor_cores=2,
     name='CSV_ETL_To_PostgreSQL_From_Railway',
     verbose=True,
