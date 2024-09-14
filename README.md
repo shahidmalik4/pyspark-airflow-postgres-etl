@@ -10,14 +10,15 @@ This project sets up an ETL pipeline using PySpark and Apache Airflow to extract
 pyspark-airflow-postgres-etl/
 ├── airflow/
 │   └── dags/
-│       └── airflow_pyspark_railway.py            # Airflow DAG to trigger PySpark ETL
+│       └── airflow_pyspark_railway.py      # Airflow DAG to trigger PySpark ETL
 ├── pyspark_files/
-│   └── pyspark_airflow_railway.py                # PySpark ETL script
+│   └── pyspark_airflow_railway.py          # PySpark ETL script
+│   └── postgresql-42.7.3.jar               # JDBC driver for PostgreSQL
 ├── data_files/
-│   └── airbnb.csv                                # Sample data file (if used)
-├── requirements.txt                              # Python dependencies for the project
-├── README.md                                     # Project overview and setup instructions
-└── .gitignore                                    # Git ignore file to exclude unnecessary files
+│   └── airbnb.csv                          # Sample data file (if used)
+├── requirements.txt                        # Python dependencies for the project
+├── README.md                               # Project overview and setup instructions
+└── .gitignore                              # Git ignore file to exclude unnecessary files
 ```
 
 ## Prerequisites
