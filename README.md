@@ -15,8 +15,6 @@ pyspark-airflow-postgres-etl/
 │   └── pyspark_script.py                # PySpark ETL script
 ├── data_file/
 │   └── source_data.csv                  # Sample data file (if used)
-├── Dockerfile                           # Dockerfile for containerizing the project (optional)
-├── docker-compose.yml                   # Docker Compose file (optional)
 ├── requirements.txt                     # Python dependencies for the project
 ├── README.md                            # Project overview and setup instructions
 └── .gitignore                           # Git ignore file to exclude unnecessary files
