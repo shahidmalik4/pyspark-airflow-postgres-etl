@@ -11,13 +11,13 @@ pyspark-airflow-postgres-etl/
 ├── airflow/
 │   └── dags/
 │       └── airflow_pyspark_railway.py            # Airflow DAG to trigger PySpark ETL
-├── pyspark/
-│   └── pyspark_airflow_railway.py       # PySpark ETL script
-├── data_file/
-│   └── airbnb.csv                  # Sample data file (if used)
-├── requirements.txt                     # Python dependencies for the project
-├── README.md                            # Project overview and setup instructions
-└── .gitignore                           # Git ignore file to exclude unnecessary files
+├── pyspark_files/
+│   └── pyspark_airflow_railway.py                # PySpark ETL script
+├── data_files/
+│   └── airbnb.csv                                # Sample data file (if used)
+├── requirements.txt                              # Python dependencies for the project
+├── README.md                                     # Project overview and setup instructions
+└── .gitignore                                    # Git ignore file to exclude unnecessary files
 ```
 
 ## Prerequisites
